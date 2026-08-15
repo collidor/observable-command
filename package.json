@@ -4,7 +4,7 @@
     "description":  "An umbrella package for collidor libraries.",
     "repository":  {
                        "type":  "git",
-                       "url":  "git@github.com:collidor/observable-command.git"
+                       "url":  "https://github.com/collidor/observable-command.git"
                    },
     "publishConfig":  {
                           "access":  "public"
