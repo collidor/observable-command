@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/collidor/observable-command/compare/v1.0.0...v1.0.1) (2026-08-15)
+
+
+### Bug Fixes
+
+* **ci:** rename workflow file to publish.yml to match npm trusted publisher configuration ([80248dc](https://github.com/collidor/observable-command/commit/80248dccc4ba9f57c3d9815aceba51773dab1f8e))
+
 # 1.0.0 (2026-08-15)
 
 
