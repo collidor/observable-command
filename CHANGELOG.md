@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/collidor/observable-command/compare/v1.0.1...v1.0.2) (2026-08-15)
+
+
+### Bug Fixes
+
+* **ci:** add --allow-dirty to jsr publish to ignore uncommitted lockfiles ([b718644](https://github.com/collidor/observable-command/commit/b718644e408bcf6a385e3356c925d43a59a34eca))
+
 ## [1.0.1](https://github.com/collidor/observable-command/compare/v1.0.0...v1.0.1) (2026-08-15)
 
 
