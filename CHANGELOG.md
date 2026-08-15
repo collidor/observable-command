@@ -1,3 +1,17 @@
+# 1.0.0 (2026-08-15)
+
+
+### Bug Fixes
+
+* **build:** add @swc/core devDependency required for tsup es5 build target ([10f9029](https://github.com/collidor/observable-command/commit/10f9029d9c4d64957fd0d86b5931352e948294c5))
+* **ci:** configure npmPublish false and provenance publishCmd for tokenless npm OIDC, fix repo URL format ([81b2262](https://github.com/collidor/observable-command/commit/81b2262ef1fb8739c1a69a776959964e10378cb7))
+* **ci:** update release pipeline to use OIDC trusted publishing without tokens ([0d372cd](https://github.com/collidor/observable-command/commit/0d372cd1041fe09a3090108fb4f2680b7bc7218c))
+
+
+### Features
+
+* add automated semantic-release pipeline for npm and jsr ([9d74dd3](https://github.com/collidor/observable-command/commit/9d74dd3ce5b21b41d57f01c6def282f7c8fb7f12))
+
 # @collidor/observable-command
 
 ## 1.0.1
