@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/collidor/observable-command/compare/v1.0.3...v1.0.4) (2026-08-16)
+
+
+### Bug Fixes
+
+* trigger patch release ([3a548c1](https://github.com/collidor/observable-command/commit/3a548c1e26304fd470945d916b84d0aba05f4754))
+
 ## [1.0.3](https://github.com/collidor/observable-command/compare/v1.0.2...v1.0.3) (2026-08-16)
 
 
