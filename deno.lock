@@ -1,22 +1,23 @@
 {
   "version": "5",
   "specifiers": {
-    "jsr:@collidor/command@^7.0.1": "7.0.1",
-    "jsr:@collidor/event@^4.3.3": "4.3.3",
+    "jsr:@collidor/command@^7.1.0": "7.1.0",
+    "jsr:@collidor/event@^4.3.3": "4.4.0",
     "jsr:@std/assert@*": "1.0.12",
     "jsr:@std/assert@^1.0.10": "1.0.11",
-    "jsr:@std/assert@^1.0.11": "1.0.12",
+    "jsr:@std/assert@^1.0.11": "1.0.19",
     "jsr:@std/assert@^1.0.12": "1.0.12",
+    "jsr:@std/assert@^1.0.19": "1.0.19",
     "jsr:@std/async@^1.0.12": "1.0.12",
     "jsr:@std/async@^1.0.9": "1.0.10",
     "jsr:@std/data-structures@^1.0.6": "1.0.6",
     "jsr:@std/fs@^1.0.15": "1.0.15",
     "jsr:@std/fs@^1.0.9": "1.0.11",
+    "jsr:@std/internal@^1.0.12": "1.0.14",
     "jsr:@std/internal@^1.0.5": "1.0.5",
     "jsr:@std/internal@^1.0.6": "1.0.6",
     "jsr:@std/path@^1.0.8": "1.0.8",
-    "jsr:@std/testing@^1.0.9": "1.0.10",
-    "npm:@collidor/command@^7.0.1": "7.0.1_@collidor+event@4.3.3",
+    "jsr:@std/testing@^1.0.9": "1.0.21",
     "npm:oxlint@^1.78.0": "1.78.0",
     "npm:rxjs@^7.8.2": "7.8.2",
     "npm:tsup@8.5.0": "8.5.0_typescript@5.9.2",
@@ -24,14 +25,14 @@
     "npm:zod@4": "4.4.3"
   },
   "jsr": {
-    "@collidor/command@7.0.1": {
-      "integrity": "1dbea02303ef0b97b3b816db8c28f2c02262f80f7d9fe541547c7fe372fcf685",
+    "@collidor/command@7.1.0": {
+      "integrity": "01850116182b4dcc5eed2298264f045c7f36e6465491769aa7ad106d51d86892",
       "dependencies": [
         "jsr:@collidor/event"
       ]
     },
-    "@collidor/event@4.3.3": {
-      "integrity": "2f2f5744beaf7bac19f2a05100579fee7f0cf84ad1dcdfffa553896afccff5f9"
+    "@collidor/event@4.4.0": {
+      "integrity": "f2269c2d53c3b5a2b2c8fe662cd30c4aab14e6a638832cafc2f0d02e55481061"
     },
     "@std/assert@1.0.11": {
       "integrity": "2461ef3c368fe88bc60e186e7744a93112f16fd110022e113a0849e94d1c83c1",
@@ -43,6 +44,12 @@
       "integrity": "08009f0926dda9cbd8bef3a35d3b6a4b964b0ab5c3e140a4e0351fbf34af5b9a",
       "dependencies": [
         "jsr:@std/internal@^1.0.6"
+      ]
+    },
+    "@std/assert@1.0.19": {
+      "integrity": "eaada96ee120cb980bc47e040f82814d786fe8162ecc53c91d8df60b8755991e",
+      "dependencies": [
+        "jsr:@std/internal@^1.0.12"
       ]
     },
     "@std/async@1.0.10": {
@@ -72,6 +79,9 @@
     "@std/internal@1.0.6": {
       "integrity": "9533b128f230f73bd209408bb07a4b12f8d4255ab2a4d22a1fd6d87304aca9a4"
     },
+    "@std/internal@1.0.14": {
+      "integrity": "291516b3d4c35024d6ffbc0a9df5bf4c64116e05b50012cf846710152d2ffdf7"
+    },
     "@std/path@1.0.8": {
       "integrity": "548fa456bb6a04d3c1a1e7477986b6cffbce95102d0bb447c67c4ee70e0364be"
     },
@@ -95,6 +105,12 @@
         "jsr:@std/fs@^1.0.15",
         "jsr:@std/internal@^1.0.6",
         "jsr:@std/path"
+      ]
+    },
+    "@std/testing@1.0.21": {
+      "integrity": "a0d14b2519005242821565091127c7d6fa96ca1b330e84e9249afcd602ee764f",
+      "dependencies": [
+        "jsr:@std/assert@^1.0.19"
       ]
     }
   },
@@ -983,16 +999,21 @@
   },
   "workspace": {
     "dependencies": [
-      "jsr:@collidor/command@^7.0.1",
+      "jsr:@collidor/command@^7.1.0",
       "jsr:@std/assert@^1.0.11",
       "jsr:@std/testing@^1.0.9",
       "npm:zod@4"
     ],
     "packageJson": {
       "dependencies": [
-        "npm:@collidor/command@^7.0.1",
+        "npm:@collidor/command@^7.1.0",
+        "npm:@semantic-release/changelog@^6.0.3",
+        "npm:@semantic-release/exec@^6.0.3",
+        "npm:@semantic-release/git@^10.0.1",
+        "npm:@swc/core@^1.13.5",
         "npm:oxlint@^1.78.0",
         "npm:rxjs@^7.8.2",
+        "npm:semantic-release@^24.2.3",
         "npm:tsup@8.5.0",
         "npm:typescript@5.9.2",
         "npm:zod@4"
