@@ -1,8 +1,8 @@
 {
   "version": "5",
   "specifiers": {
-    "jsr:@collidor/command@^7.1.0": "7.1.0",
-    "jsr:@collidor/event@^4.3.3": "4.4.0",
+    "jsr:@collidor/command@^7.2.0": "7.2.1",
+    "jsr:@collidor/event@^4.5.0": "4.5.0",
     "jsr:@std/assert@*": "1.0.12",
     "jsr:@std/assert@^1.0.10": "1.0.11",
     "jsr:@std/assert@^1.0.11": "1.0.19",
@@ -25,14 +25,14 @@
     "npm:zod@4": "4.4.3"
   },
   "jsr": {
-    "@collidor/command@7.1.0": {
-      "integrity": "01850116182b4dcc5eed2298264f045c7f36e6465491769aa7ad106d51d86892",
+    "@collidor/command@7.2.1": {
+      "integrity": "8396e0b0dd40e94a791ce2e5be370a574b30e1d72611d8bb2889f41d2fa7005a",
       "dependencies": [
         "jsr:@collidor/event"
       ]
     },
-    "@collidor/event@4.4.0": {
-      "integrity": "f2269c2d53c3b5a2b2c8fe662cd30c4aab14e6a638832cafc2f0d02e55481061"
+    "@collidor/event@4.5.0": {
+      "integrity": "7740d0614d4fac4592e93379238be4484bb6596ab86102845ffc45232bda52d5"
     },
     "@std/assert@1.0.11": {
       "integrity": "2461ef3c368fe88bc60e186e7744a93112f16fd110022e113a0849e94d1c83c1",
@@ -999,14 +999,14 @@
   },
   "workspace": {
     "dependencies": [
-      "jsr:@collidor/command@^7.1.0",
+      "jsr:@collidor/command@^7.2.0",
       "jsr:@std/assert@^1.0.11",
       "jsr:@std/testing@^1.0.9",
       "npm:zod@4"
     ],
     "packageJson": {
       "dependencies": [
-        "npm:@collidor/command@^7.1.0",
+        "npm:@collidor/command@^7.2.0",
         "npm:@semantic-release/changelog@^6.0.3",
         "npm:@semantic-release/exec@^6.0.3",
         "npm:@semantic-release/git@^10.0.1",
