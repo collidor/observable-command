@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/collidor/observable-command/compare/v1.0.5...v1.0.6) (2026-09-26)
+
+
+### Bug Fixes
+
+* **deps:** update @collidor/command to ^7.2.0 ([a13e429](https://github.com/collidor/observable-command/commit/a13e429f21d704792bf15e58380d0ed7741329ae))
+
 ## [1.0.5](https://github.com/collidor/observable-command/compare/v1.0.4...v1.0.5) (2026-09-24)
 
 
