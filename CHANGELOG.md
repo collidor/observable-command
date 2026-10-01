@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/collidor/observable-command/compare/v1.0.6...v1.1.0) (2026-10-01)
+
+
+### Bug Fixes
+
+* **deps:** update @collidor/command to ^7.2.1 and @collidor/event to ^4.7.0 ([7b89043](https://github.com/collidor/observable-command/commit/7b89043841384f97d021bbe71b4b4f1e8a2c2d27))
+
+
+### Features
+
+* **plugins:** implement PortChannelPlugin with ACK failover and RxJS stream teardown ([3852fba](https://github.com/collidor/observable-command/commit/3852fba4b8f850291dc13a725c15645d286a2c15))
+
 ## [1.0.6](https://github.com/collidor/observable-command/compare/v1.0.5...v1.0.6) (2026-09-26)
 
 
