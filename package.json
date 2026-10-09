@@ -31,7 +31,7 @@
     "author": "Alykam Burdzaki <alykam@gmail.com> (https://alykam.com)",
     "license": "MIT",
     "devDependencies": {
-        "@collidor/event": "^4.5.0",
+        "@collidor/event": "^4.7.2",
         "oxlint": "^1.78.0",
         "rxjs": "^7.8.2",
         "tsup": "8.5.0",
@@ -44,10 +44,10 @@
         "@swc/core": "^1.13.5"
     },
     "dependencies": {
-        "@collidor/command": "^7.2.1"
+        "@collidor/command": "^7.3.4"
     },
     "peerDependencies": {
-        "@collidor/event": "^4.7.0",
+        "@collidor/event": "^4.7.2",
         "rxjs": "^7"
     },
     "engines": {
