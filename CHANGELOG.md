@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/collidor/observable-command/compare/v1.1.0...v1.1.1) (2026-10-09)
+
+
+### Bug Fixes
+
+* **deps:** update @collidor/command to ^7.3.4 and @collidor/event to ^4.7.2 ([c035eb0](https://github.com/collidor/observable-command/commit/c035eb0459d2ae060c4472702d311579f2664d09))
+
 # [1.1.0](https://github.com/collidor/observable-command/compare/v1.0.6...v1.1.0) (2026-10-01)
 
 
